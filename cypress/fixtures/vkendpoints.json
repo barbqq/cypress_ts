@@ -1,0 +1,15 @@
+{
+  "create_post_path" : "wall.post",
+  "delete_post_path" : "wall.delete",
+  "create_comment_path" : "wall.createComment",
+  "check_likes_path" : "likes.isLiked",
+  "get_wall_upload_path" : "photos.getWallUploadServer",
+  "save_wall_photo_path" : "photos.saveWallPhoto",
+  "edit_wall_post_path" : "wall.edit",
+  "api_version" : "5.81",
+  "owner_id" : "627657327",
+  "type_of_upload_file" : "photo",
+  "vk_api_url" : "https://api.vk.com/method/",
+  "vk_url": "https://vk.com/",
+  "token" : "vk1.a.cHdWTTa49ynM1E9wzBUuNsDYFvTZn-KwwJ8Rzy-Z7sUWYx2CMXwT3uPh2McKtKBw1UnGYcS1M-AwiJ9BGGHee5qOl3GdIeKra4yZXqYBnYiegyJmx-NF6X0jXLuBpRcJ6AWo5s1OcE9tNMnEkv258Z8SO-KuNwrXnvCvikEt8Pb22yZQqheU7FPcGbntpOlHD_jPhyviGCXNa_hyorI-RQ"
+}
