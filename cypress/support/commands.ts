@@ -25,3 +25,14 @@
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
 /// <reference types="cypress-xpath" />
+
+import commonUtils from "../utils/common.utils";
+require('cypress-downloadfile/lib/downloadFileCommand')
+Cypress.Commands.add('customerUploadFile', function(url:string, file,fileName,fileType) {
+    return commonUtils.customerUploadFile(url, file, fileName, fileType);
+});
+
+Cypress.Commands.add('compareImages',function(actualPath: string, expectedPath: string){
+    return commonUtils.compareImages(actualPath,expectedPath)}
+);
+

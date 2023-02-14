@@ -11,5 +11,10 @@
   "fixture_folder" : "cypress/fixtures",
   "actual_image_name": "actual.jpg",
   "expected_image_name": "expected.jpg",
-  "mime_type" : "image/jpeg"
+  "mime_type" : "image/jpeg",
+  "api_version" : "5.81",
+  "type_of_upload_file" : "photo",
+  "vk_api_url" : "https://api.vk.com/method/",
+  "vk_url": "https://vk.com/",
+  "token" : "vk1.a.cHdWTTa49ynM1E9wzBUuNsDYFvTZn-KwwJ8Rzy-Z7sUWYx2CMXwT3uPh2McKtKBw1UnGYcS1M-AwiJ9BGGHee5qOl3GdIeKra4yZXqYBnYiegyJmx-NF6X0jXLuBpRcJ6AWo5s1OcE9tNMnEkv258Z8SO-KuNwrXnvCvikEt8Pb22yZQqheU7FPcGbntpOlHD_jPhyviGCXNa_hyorI-RQ"
 }

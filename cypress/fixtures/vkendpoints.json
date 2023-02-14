@@ -1,11 +1,4 @@
 {
-  "create_post_path" : "wall.post",
-  "delete_post_path" : "wall.delete",
-  "create_comment_path" : "wall.createComment",
-  "check_likes_path" : "likes.isLiked",
-  "get_wall_upload_path" : "photos.getWallUploadServer",
-  "save_wall_photo_path" : "photos.saveWallPhoto",
-  "edit_wall_post_path" : "wall.edit",
   "api_version" : "5.81",
   "owner_id" : "627657327",
   "type_of_upload_file" : "photo",
