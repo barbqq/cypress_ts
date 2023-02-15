@@ -1,0 +1,15 @@
+{
+  "login" : "***",
+  "password" : "***",
+  "random_string_len" : 15,
+  "post_id_attr" : "id",
+  "image_attr" : "src",
+  "number_of_likes" : 1,
+  "expected_image_path" : "cypress/fixtures/expected.jpg",
+  "actual_image_path" : "cypress/fixtures/actual.jpg",
+  "owner_id" : "133199669",
+  "fixture_folder" : "cypress/fixtures",
+  "actual_image_name": "actual.jpg",
+  "expected_image_name": "expected.jpg",
+  "mime_type" : "image/jpeg"
+}

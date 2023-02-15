@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {      
+      "target": "es5",
+      "lib": ["es5", "dom"],
+      "types": ["cypress", "node","cypress-xpath","cypress-downloadfile"],
+      "resolveJsonModule": true,
+      "allowSyntheticDefaultImports": true
+    },    
+    "include": ["**/*.ts"]
+}
