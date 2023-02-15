@@ -1,5 +1,6 @@
 import HttpMethod from "http-method-enum";
-import Jimp from "jimp"
+// import Jimp from "jimp"
+const Jimp = require('jimp')
 import UploadedPhoto from "../models/uploaded.photo";
 class CommonUtls{
     public generateRandomString(length: number) : string{
@@ -30,20 +31,13 @@ class CommonUtls{
             })
     }
 
-    public async compareImages(actualPath:string ,expectedPath : string ){        
-          const actual = await Jimp.read(actualPath);
-          const expected = await Jimp.read(expectedPath);
-          const pixelDifference =  Jimp.diff(actual, expected).percent;
-          const distance =  Jimp.distance(actual, expected);
-          return distance < 0.20 || pixelDifference < 0.20;
-    }
+    
     
 }
 declare global {
     namespace Cypress{
         interface Chainable {
             customerUploadFile(url : string, file : string, fileName : string, fileType : string): any,
-            compareImages(actualPath: string,expectedPath: string): Promise<boolean>
         }
     }
 }

@@ -60,7 +60,10 @@ class VKSteps{
                     cy.downloadFile(url,data.fixture_folder,data.actual_image_name)
                 })
             cy.xpath(locators.closeBtnLoc).click()
-            cy.compareImages(data.actual_image_path,data.expected_image_path)
+            cy.task("compareImages",{
+                actualPath: data.actual_image_path,
+                expectedPath: data.expected_image_path
+            })
             .then((equal)=>{
                 expect(equal).to.be.true
             })            

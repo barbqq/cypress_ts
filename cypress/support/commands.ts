@@ -32,7 +32,3 @@ Cypress.Commands.add('customerUploadFile', function(url:string, file,fileName,fi
     return commonUtils.customerUploadFile(url, file, fileName, fileType);
 });
 
-Cypress.Commands.add('compareImages',function(actualPath: string, expectedPath: string){
-    return commonUtils.compareImages(actualPath,expectedPath)}
-);
-
